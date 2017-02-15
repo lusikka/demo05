@@ -44,6 +44,7 @@ namespace CDApplication
             Song song30 = new Song { Name = "Pathophysiologic Responses of Chronic Idiopathic Thrombocytopenic Purpura", Length = 1.14 };
             Song song31 = new Song { Name = "Petechial-Ecchymotic Widespread Hemorrhages (Characteristic Aspects of Meningococcemia)", Length = 2.29 };
             cd.Artist = "Lymphatic Phlegm";
+            cd.Album = "Pathogenesis Infest Phlegmsepsia";
             cd.AddTrack(song1);
             cd.AddTrack(song2);
             cd.AddTrack(song3);

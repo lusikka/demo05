@@ -12,7 +12,7 @@ namespace CDApplication
         public double Length;
         public override string ToString()
         {
-            return Name + " " + Length;
+            return Name + ", " + Length;
         }
     }
 }

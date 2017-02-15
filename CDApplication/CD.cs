@@ -10,6 +10,7 @@ namespace CDApplication
     {
         public string Artist { get; set; }
         public double Price { get; set; }
+        public string Album { get; set; }
 
         private List<Song> songlist;
 
@@ -23,7 +24,7 @@ namespace CDApplication
         }
         public override string ToString()
         {
-            return "Artist:" + Artist + ", Price:" + Price + ", Songs:";
+            return "Artist:" + Artist + ", Album: " + Album + ", Price: " + Price + "$. Songs:";
         }
         public void PrintSongMyBoi()
         {
